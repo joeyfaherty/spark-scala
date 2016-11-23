@@ -73,7 +73,21 @@ object LearningScala2 {
 	 // Write some code that prints out the first 10 values of the Fibonacci sequence.
 	 // This is the sequence where every number is the sum of the two numbers before it.
 	 // So, the result should be 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
- 	//>
+ 	 //>
+
+  // f(0) = 0
+  // f(1) = 1
+  // fn = fn-1 + fn-2
+
+  var i = 0;
+  for (x <- 0 to 9) {
+    i match {
+      case 0 => println(0)
+      case 1 | 2 => println(1)
+      case _ => println(x.to(i))
+    }
+    i += 1;
+  }
 
 
 }
