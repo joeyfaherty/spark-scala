@@ -5,6 +5,7 @@ object LearningScala4 {
   // Immutable lists
   // Often thought of as database fields, or columns.
   // Useful for passing around entire rows of data.
+  // Tuples start at index 1
   
   val captainStuff = ("Picard", "Enterprise-D", "NCC-1701-D")
                                                   //> captainStuff  : (String, String, String) = (Picard,Enterprise-D,NCC-1701-D)
@@ -105,6 +106,9 @@ println(archersShip)                              //> Unknown
 // modula operator, like other languages, is %, which gives you the remainder after division. For example, 9 % 3 = 0
 // because 9 is evenly divisible by 3.) Do this first by iterating through all the items in the list and testing each
 // one as you go. Then, do it again by using a filter function on the list instead.
+
+  val numbers = List(1,2,3, 20)
+  println(numbers.filter(_ % 3 == 0))
 
 // That's enough for now!
 // There is MUCH more to learn about Scala. We didn't cover many other collection types, including mutable collections.
