@@ -75,19 +75,21 @@ object LearningScala2 {
 	 // So, the result should be 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
  	 //>
 
+  // By definition, the first two numbers in the Fibonacci sequence are 0 and 1,
+  // and each subsequent number is the sum of the previous two.
+  
   // f(0) = 0
   // f(1) = 1
   // fn = fn-1 + fn-2
 
-  var i = 0;
-  for (x <- 0 to 9) {
-    i match {
-      case 0 => println(0)
-      case 1 | 2 => println(1)
-      case _ => println(x.to(i))
-    }
-    i += 1;
+  var n0 = 0
+  var n1 = 1
+  print(n0 + ", " + n1)
+  for (i <- 2 to 9) {
+    val n2 = n0 + n1
+    print(", " + n2)
+    n0 = n1
+    n1 = n2
   }
-
 
 }
