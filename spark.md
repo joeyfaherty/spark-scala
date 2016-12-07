@@ -62,3 +62,18 @@ union, intersection, subtract, cartesian
 process between two RDDs
 
 
+Key Value RRDs:
+example, number of friends by age in a network
+Tuple: if the value of the RRD has 2 values
+
+reduceByKey(): combines values of the same key using some function.
+eg. rrd.reduceByKey((a,b) => a + b) would get the total sum.
+we do it one by one (a,b) because of the distributed nature of the RRD we need to operate one at a time
+
+groupByKey(): Collects all the values of a key into a list
+sortByKey(): sorts an RRD by a key
+keys(), values() creates an RRD of just the keys or just the values
+
+if you are only working with the values use: (more efficient and better syntactically)
+mapValues()
+flatmapValues()
