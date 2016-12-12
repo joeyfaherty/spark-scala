@@ -77,3 +77,5 @@ keys(), values() creates an RRD of just the keys or just the values
 if you are only working with the values use: (more efficient and better syntactically)
 mapValues()
 flatmapValues()
+
+
