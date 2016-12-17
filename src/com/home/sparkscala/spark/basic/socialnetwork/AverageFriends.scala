@@ -1,7 +1,10 @@
-package com.home.sparkscala
+package com.home.sparkscala.spark.basic.socialnetwork
 
 import org.apache.spark.SparkContext
 
+/**
+  * Created by joey on 12/17/16.
+  */
 // Compute the average number of friends by age in a social network
 object AverageFriends {
 

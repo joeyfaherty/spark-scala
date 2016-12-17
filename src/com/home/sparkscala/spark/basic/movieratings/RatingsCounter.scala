@@ -1,8 +1,7 @@
-package com.home.sparkscala
+package com.home.sparkscala.spark.basic.movieratings
 
-import org.apache.spark._
-import org.apache.spark.SparkContext._
-import org.apache.log4j._
+import org.apache.log4j.{Level, Logger}
+import org.apache.spark.SparkContext
 
 /** Count up how many of each star rating exists in the MovieLens 100K data set. */
 object RatingsCounter {

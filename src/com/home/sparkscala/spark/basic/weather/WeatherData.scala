@@ -1,4 +1,4 @@
-package com.home.sparkscala.weather
+package com.home.sparkscala.spark.basic.weather
 
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.SparkContext

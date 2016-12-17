@@ -1,4 +1,4 @@
-package com.home.sparkscala.basics
+package com.home.sparkscala.scala
 
 /**
   * Created by joey on 11/22/16.

@@ -1,4 +1,4 @@
-package com.home.sparkscala
+package com.home.sparkscala.spark.basic
 
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.SparkContext
@@ -48,5 +48,3 @@ object HighestSpenders {
 
 
 }
-
-

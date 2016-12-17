@@ -1,4 +1,4 @@
-package com.home.sparkscala.mapvsflatmap
+package com.home.sparkscala.spark.basic.mapvsflatmap
 
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.SparkContext
