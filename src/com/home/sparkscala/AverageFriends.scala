@@ -14,7 +14,7 @@ object AverageFriends {
     // RDD of form (age, numFriends)
     val rrd = data.map(parseLine)
 
-    // We use mapValues to convert each numFriends value to a tuple of (numFriends, 1)
+/*    // We use mapValues to convert each numFriends value to a tuple of (numFriends, 1)
     val totalsByAge = rrd.mapValues(x => (x, 1))
       // Then we use reduceByKey to sum up the total numFriends and total instances for each age, by
       // adding together all the numFriends values and 1's respectively.
@@ -27,8 +27,9 @@ object AverageFriends {
     // Collect action. Kicks off computing the DAG
     val results = averagesByAge.collect()
 
-    // print each row
-    results.sorted.foreach(println)
+    // print each row*/
+    /*results.sorted.foreach(println)*/
+
   }
 
 
