@@ -78,4 +78,8 @@ if you are only working with the values use: (more efficient and better syntacti
 mapValues()
 flatmapValues()
 
-
+Advanced Section:
+Broadcast variables: (avoid transmitting the data more than once)
+Used to broadcast objects to available executor nodes
+use sc.broadcast() to broadcast the data
+use .value() to get the object back and be able to refer to it
