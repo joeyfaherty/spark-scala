@@ -1,0 +1,7 @@
+{"logLevel":"INFO","traceId":"12345678","host":"172.16.67.202","message":"This is an example json log"}
+{"logLevel":"ERROR","traceId":"12345678","host":"172.16.67.202","message":"ERROR!!!"}
+{"logLevel":"INFO","traceId":"12345678","host":"172.16.67.202","message":"This is an example json log"}
+{"logLevel":"INFO","traceId":"12345678","host":"172.16.67.202","message":"This is an example json log"}
+{"logLevel":"ERROR","traceId":"12345678","host":"172.16.67.202","message":"ERROR!!!"}
+{"logLevel":"INFO","traceId":"12345678","host":"172.16.67.202","message":"This is an example json log"}
+{"logLevel":"INFO","traceId":"12345678","host":"172.16.67.202","message":"This is an example json log"}
